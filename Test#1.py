@@ -1,7 +1,7 @@
 from abc import ABC,abstractmethod
 
 class Empleado(ABC):
-    def __init__(self,nom,ced,tel,email,dir):## si tengo constructor, necesito metodos
+    def __init__(self,nom,ced,tel,email,dir):
         self.nombre_emp= nom
         self.cedula_emp= ced
         self._emp= tel
